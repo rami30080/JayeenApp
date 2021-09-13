@@ -1,0 +1,4 @@
+http://localhost:1337/sendMessage        sends message for who didnt recieve a message (number,sent==0)
+http://localhost:1337/remindMessage	 sends message for who answered with a number >0 ,and have a date.length>0 (answered)
+http://localhost:1337/remindMessage2     sends a message to remind people that this night is the event
+http://localhost:1337/tableMessage	 sends msg for people who had a number,answer>0,table>0
